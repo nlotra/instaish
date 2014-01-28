@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+.flippers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../img/instagram.jpg') center;
+  overflow: hidden;
+}
+
+.flipper,
+.flipper div {    
+   float:left;
+   clear:none
+}
+
+.flip {
+  background: none !important;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
